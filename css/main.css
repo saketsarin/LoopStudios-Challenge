@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  background-image: url(/images/desktop/image-hero.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+nav {
+  margin: 0 170px;
+  padding-top: 75px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  position: relative;
+  text-decoration: none;
+}
+
+.menu a::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: "";
+  color: transparent;
+  background: white;
+  height: 2px;
+}
+
+.menu a:hover::after {
+  width: 27px;
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 17px;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+.introBox {
+  margin: 135px 170px;
+  height: 290px;
+  width: 680px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.introBox p {
+  /* margin: 5% 5%; */
+  padding: 42px;
+  margin-right: 100px;
+  color: white;
+  font-family: "Josefin Sans";
+  font-size: 69px;
+}
+
+.about {
+  margin: 120px 170px;
+  position: relative;
+  background-color: white;
+}
+
+.aboutBox {
+  position: absolute;
+  height: 330px;
+  width: 510px;
+  bottom: 0;
+  right: 20px;
+  margin-right: 80px;
+  background-color: white;
+}
+
+.headingAbout {
+  padding-top: 100px;
+  padding-left: 78px;
+  color: black;
+  font-family: "Josefin Sans";
+  font-size: 45px;
+}
+
+.contentBox {
+  padding-top: 40px;
+  padding-left: 78px;
+  color: hsl(0, 0%, 55%);
+  font-family: "Alata";
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.creations {
+  margin: 120px 170px;
+  /* position: relative; */
+  background-color: white;
+}
+
+.creationsTop {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.headingCreations {
+  color: black;
+  font-family: "Josefin Sans";
+  font-size: 45px;
+}
+
+.seeButton {
+  background-color: white;
+  border: 2px solid grey;
+  color: black;
+  padding: 0 35px;
+  font-family: "Alata";
+  font-size: 15px;
+  letter-spacing: 3px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.seeButton:hover {
+  color: white;
+  background-color: black;
+}
+
+.creationsList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.creationsItem {
+  /* margin: auto; */
+  flex: 25%;
+}
+
+.creationsItem:hover > img {
+  cursor: pointer;
+  opacity: 0.35;
+}
+
+.creationsItem:hover > p {
+  color: black;
+}
+
+.creationsItem img {
+  transition-duration: 0.4s;
+  filter: brightness(65%);
+}
+
+.creationsItem p {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  width: 54%;
+  color: white;
+  position: relative;
+  left: 40px;
+  bottom: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.footerLeft {
+  margin: 60px 175px;
+}
+
+.footerMenu {
+  display: flex;
+  align-items: center;
+}
+
+.footerMenu a {
+  position: relative;
+  text-decoration: none;
+}
+
+.footerMenu a::after {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  right: 50px;
+  margin: auto;
+  width: 0%;
+  content: "";
+  color: transparent;
+  background: white;
+  height: 2px;
+}
+
+.footerMenu a:hover::after {
+  width: 27px;
+}
+
+.footerMenu li {
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 53px;
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+}
+
+.footerRight {
+  margin: 60px 60px;
+}
+
+.socialIcons {
+  margin-left: 107px;
+}
+
+.socialIcons a {
+  position: relative;
+  text-decoration: none;
+}
+
+.socialIcons a::after {
+  position: absolute;
+  top: 24px;
+  right: 17px;
+  margin: auto;
+  width: 0%;
+  content: "";
+  color: transparent;
+  background: white;
+  height: 2px;
+}
+
+.socialIcons a:hover::after {
+  width: 27px;
+}
+
+.socialIcons img {
+  margin-right: 18px;
+}
+
+.cprtText {
+  margin-top: 20px;
+  margin-right: 120px;
+  font-family: "Alata";
+  color: gray;
+  font-size: 15px;
+}
