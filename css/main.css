@@ -7,7 +7,7 @@
 }
 
 body {
-  max-width: 100%;
+  /* max-width: 100%; */
   overflow-x: hidden;
 }
 
@@ -60,6 +60,18 @@ nav {
   color: white;
   font-family: "Josefin Sans";
   font-weight: bold;
+}
+
+.burger{
+  display: none;
+}
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: rgb(226, 226, 226);
+  margin: 5px;
+  transition: all 0.3s ease;
 }
 
 .introBox {
