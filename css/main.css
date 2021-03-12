@@ -63,19 +63,11 @@ nav {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-.burger {
-  display: none;
-}
-
-.burger div {
-=======
 .burger{
   display: none;
 }
 
 .burger div{
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
   width: 25px;
   height: 3px;
   background-color: rgb(226, 226, 226);
