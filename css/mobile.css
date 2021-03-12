@@ -1,22 +1,13 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 @media screen and (max-width: 1024px) {
   /* body {
-=======
-@media screen and (max-width: 1024px) {
-  body {
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
     overflow-x: hidden;
   }
 
   .header {
     height: 100vh;
-<<<<<<< HEAD
   } */
-=======
-  }
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
 
   nav {
     margin: 0 100px;
@@ -46,20 +37,11 @@
 }
 
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
   /* body {
     overflow-x: hidden;
   } */
 
   .header {
-=======
-  body {
-    overflow-x: hidden;
-  }
-
-  .header {
-    height: 100vh;
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
     background-size: cover;
   }
 
@@ -83,11 +65,9 @@
 
   .menu li {
     opacity: 0;
-<<<<<<< HEAD
-    padding: 60px;
-=======
-    padding: 75px;
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
+    font-size: larger;
+    padding: 55px;
+    font-variant-caps: all-petite-caps;
   }
 
   .burger {
@@ -99,7 +79,6 @@
     transform: translateX(0%);
   }
 
-<<<<<<< HEAD
   .introBox {
     width: 70%;
     margin: 135px 120px;
@@ -133,23 +112,12 @@
 
   .contentBox {
     padding-left: 60px;
-=======
-  .about {
-    margin-left: 100px;
-    margin-bottom: 220px;
-  }
-
-  .aboutBox {
-    bottom: -100px;
-    right: -200px;
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
   }
 
   .creationsTop {
     margin: 20px -100px;
   }
 
-<<<<<<< HEAD
   .item1 {
     content: url(../images/mobile/image-deep-earth.jpg);
   }
@@ -175,8 +143,6 @@
     content: url(../images/mobile/image-fisheye.jpg);
   }
 
-=======
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
   .footerLeft {
     margin: 80px 80px;
   }
@@ -188,7 +154,6 @@
 }
 
 @media screen and (max-width: 430px) {
-<<<<<<< HEAD
   /* body {
     overflow-x: hidden;
   } */
@@ -204,7 +169,7 @@
   }
 
   .menu li {
-    padding: 40px;
+    padding: 30px;
     font-family: Alata;
     font-weight: normal;
   }
@@ -218,8 +183,8 @@
 
   .introBox {
     margin: 130px 30px;
-    height: 25%;
-    width: 85%;
+    height: 30%;
+    width: 80%;
   }
 
   .introBox p {
@@ -259,10 +224,13 @@
 
   .creations {
     margin: 90px 100px;
+    display: flex;
+    flex-direction: column;
   }
 
   .creationsTop {
     margin: 5px -80px;
+    display: contents;
   }
 
   .headingCreations {
@@ -317,20 +285,12 @@
   }
 
   .cprtText {
+    align-self: center;
     width: max-content;
     margin-top: 20px;
     margin-left: -30px;
     padding-bottom: 5px;
     height: 60px;
-=======
-  body {
-    overflow-x: hidden;
-  }
-
-  .header {
-    background-image: url(/images/mobile/image-hero.jpg);
-    height: 100vh;
->>>>>>> db70284ad82c78e82e4ec2c9f1daa9e0a7dc2cb1
   }
 }
 

@@ -77,7 +77,7 @@ nav {
 
 .introBox {
   margin: 135px 170px;
-  height: 290px;
+  height: max-content;
   width: 680px;
   background-color: transparent;
   border: 2px solid white;
@@ -129,23 +129,21 @@ nav {
   margin: 120px 170px;
   /* position: relative; */
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  /* box-sizing: border-box; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
-/* .creationsTop {
-  box-sizing: border-box;
-  margin: 10px 0;
+.creationsTop {
+  display: flex;
+  /* margin: 10px 0; */
   justify-content: space-between;
-} */
+}
 
 .headingCreations {
   color: black;
   font-family: "Josefin Sans";
   font-size: 45px;
   width: fit-content;
-  /* float: left; */
 }
 
 .seeButton {
@@ -159,9 +157,7 @@ nav {
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 2px;
-  /* float: right; */
   width: fit-content;
-  align-self: flex-end;
 }
 
 .seeButton:hover {
