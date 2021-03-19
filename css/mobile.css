@@ -65,9 +65,13 @@
 
   .menu li {
     opacity: 0;
+<<<<<<< HEAD
     font-size: larger;
     padding: 55px;
     font-variant-caps: all-petite-caps;
+=======
+    padding: 60px;
+>>>>>>> 60de82f228553ebe87aa663cdbd41ff8117d6384
   }
 
   .burger {
