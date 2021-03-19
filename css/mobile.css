@@ -147,12 +147,8 @@
 }
 
 @media screen and (max-width: 430px) {
-  .header{
-    padding-bottom: 110px;
-  }
-  
   nav {
-    /* padding-right: 0px; */
+    padding-right: 25px;
     padding-top: 40px;
   }
 
@@ -287,7 +283,7 @@
   }
 
   .myName {
-    margin-left: 20px;
+    margin-left: 5px;
     height: 40px;
   }
 }
