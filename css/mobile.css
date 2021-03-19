@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 @media screen and (max-width: 1024px) {
-  /* body {
-    overflow-x: hidden;
-  }
-
   .header {
     height: 100vh;
-  } */
+    width: 100vw;
+  }
 
   nav {
-    margin: 0 100px;
+    margin: 0 80px;
   }
 
   .about {
@@ -37,7 +34,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .header {
     background-size: cover;
   }
@@ -62,13 +58,9 @@
 
   .menu li {
     opacity: 0;
-<<<<<<< HEAD
     font-size: larger;
     padding: 55px;
     font-variant-caps: all-petite-caps;
-=======
-    padding: 60px;
->>>>>>> 60de82f228553ebe87aa663cdbd41ff8117d6384
   }
 
   .burger {
@@ -155,18 +147,14 @@
 }
 
 @media screen and (max-width: 430px) {
-  /* body {
-    overflow-x: hidden;
-  } */
-
   nav {
-    margin: 0 20px;
+    padding-right: 25px;
     padding-top: 40px;
   }
 
   .menu {
     /* right: 220px; */
-    padding-top: 100px;
+    padding-top: 80px;
   }
 
   .menu li {
@@ -292,6 +280,11 @@
     margin-left: -30px;
     padding-bottom: 5px;
     height: 60px;
+  }
+
+  .myName {
+    margin-left: 5px;
+    height: 40px;
   }
 }
 
