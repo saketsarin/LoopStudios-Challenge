@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 @media screen and (max-width: 1024px) {
-  .header {
-    height: 100vh;
-    width: 100vw;
-  }
+  /* .header {
+    height: 100%;
+    width: 100%;
+  } */
 
   nav {
     margin: 0 80px;
@@ -147,12 +147,8 @@
 }
 
 @media screen and (max-width: 430px) {
-  .header{
-    padding-bottom: 110px;
-  }
-  
   nav {
-    /* padding-right: 0px; */
+    padding-right: 25px;
     padding-top: 40px;
   }
 
@@ -168,7 +164,8 @@
   }
 
   .header {
-    background-size: contain;
+    padding-bottom: 70px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-image: url(/images/mobile/image-hero.jpg);
@@ -182,7 +179,7 @@
 
   .introBox p {
     padding: 25px;
-    font-size: 40px;
+    font-size: 37px;
   }
 
   .about {
@@ -199,13 +196,14 @@
   .aboutBox {
     bottom: 0;
     right: 0;
+    align-self: center;
     position: relative;
     text-align: center;
   }
 
   .headingAbout {
     padding-top: 40px;
-    padding-left: 0px;
+    padding-right: 20px;
     font-size: 32px;
   }
 
@@ -287,8 +285,25 @@
   }
 
   .myName {
-    margin-left: 20px;
+    margin-left: 5px;
     height: 40px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  nav {
+    padding-right: 0px;
+  }
+
+  .introBox p {
+    font-size: 33px;
+  }
+
+  .socialIcons {
+    margin-left: -25px;
+  }
+  .cprtText {
+    margin-left: -50px;
   }
 }
 
